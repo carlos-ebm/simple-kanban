@@ -45,7 +45,7 @@ The app will be accessible at http://localhost:5173/ in your browser.
 
 ## Usage
 
-- Visit the live [demo](https://64d1a3c44496d81b322f84a5--enchanting-semifreddo-72965c.netlify.app/) to try out the Simple Kanban application.
+- Visit the live [demo](https://64d2b7bdf4ccb713cbd81e10--luxury-smakager-8ba9c6.netlify.app/) to try out the Simple Kanban application.
 
 ## Contribution
 
