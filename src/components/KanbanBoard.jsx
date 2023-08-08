@@ -47,8 +47,6 @@ const KanbanBoard = () => {
         { title: newTask, status: listId, emoji: emoji },
       ];
       setTasks(tasksCopy);
-      // Limpia el estado del emoji después de agregar la tarea
-      setNewTaskEmoji(""); // Esto debe ser definido en tu componente
     } catch (error) {
       console.error("Error adding task:", error);
     }
