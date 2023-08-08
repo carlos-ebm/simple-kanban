@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple Kanban is a web application built with ReactJS and Firebase that allows users to manage their tasks using a Kanban board interface. Tasks can be organized into different columns representing their status.
+"Simple Kanban" is a lightweight web application built using React.js and Firebase, designed to empower users in managing tasks effortlessly through an intuitive kanban board interface. This project provides a solid foundation for creating, organizing, and tracking tasks across different stages of completion. With the combination of React.js for dynamic user interfaces and Firebase for real-time data synchronization, "Simple Kanban" offers a seamless and efficient task management solution suitable for personal and small team use. Experience streamlined task tracking and organization with this user-friendly kanban board application.
 
 ## Features
 
