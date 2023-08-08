@@ -1,0 +1,128 @@
+/* Estilos para pantallas con ancho máximo de 768px */
+@media (max-width: 768px) {
+  /* Cambia la dirección de los elementos a columna y centra horizontalmente */
+  .kanban-board {
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+  }
+
+  /* Ocupa el ancho completo, pero no excede 600px */
+  .column {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  /* Alinea los botones a la derecha y muestra en línea con espacio entre ellos */
+  .add-task-button {
+    justify-content: flex-end;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+/* Estilos para pantallas con ancho máximo de 600px */
+@media (max-width: 600px) {
+  /* Cambia la dirección de los elementos a columna */
+  .add-task {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Centra horizontalmente los elementos */
+  .add-task-button {
+    text-align: center;
+  }
+
+  /* Ancho completo para el emoji */
+  .add-task-emoji {
+    width: 100%;
+  }
+
+  /* Ancho completo para la entrada de texto */
+  .add-task input {
+    width: 100%;
+    flex: 1;
+    padding: 5px;
+  }
+
+  /* Tamaño del emoji más pequeño */
+  .add-task-emoji select {
+    font-size: 14px;
+  }
+
+  /* Centrar el botón */
+  .add-task-button {
+    text-align: center;
+  }
+}
+
+/* Estilos para el selector de emoji */
+.emoji-select {
+  appearance: none;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Efecto de resaltado al pasar el cursor sobre el selector de emoji */
+.emoji-select:hover {
+  border-color: #999;
+}
+
+/* Efecto de resaltado cuando el selector de emoji está enfocado */
+.emoji-select:focus {
+  border-color: #007bff;
+}
+
+/* Estilos para las opciones del selector de emoji */
+.emoji-select option {
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+
+/* Estilos para el contenedor del tablero Kanban */
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Estilos para cada columna */
+.column {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Estilos para las tareas */
+.task {
+  border: 1px solid #aaa;
+  background-color: #f4f4f4;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para el contenedor de agregar tarea */
+.add-task {
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilos para la entrada de texto de agregar tarea */
+.add-task input {
+  width: 100%;
+  flex: 1;
+  padding: 5px;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+  background-color: #f0f0f0;
+}
