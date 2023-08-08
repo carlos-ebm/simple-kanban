@@ -52,31 +52,6 @@ const KanbanBoard = () => {
     }
   };
 
-  // // Maneja el arrastre y soltar de tareas entre columnas
-  // const handleDragEnd = async (result) => {
-  //   if (!result.destination) {
-  //     return;
-  //   }
-
-  //   const sourceListId = result.source.droppableId;
-  //   const destinationListId = result.destination.droppableId;
-
-  //   const sourceTasks = [...tasks[sourceListId]];
-  //   const destinationTasks = [...tasks[destinationListId]];
-
-  //   const [movedTask] = sourceTasks.splice(result.source.index, 1);
-  //   destinationTasks.splice(result.destination.index, 0, movedTask);
-
-  //   setTasks((prevState) => ({
-  //     ...prevState,
-  //     [sourceListId]: sourceTasks,
-  //     [destinationListId]: destinationTasks,
-  //   }));
-
-  //   await updateTasks(sourceListId, sourceTasks);
-  //   await updateTasks(destinationListId, destinationTasks);
-  // };
-
   const handleDragEnd = async (result) => {
     if (!result.destination) {
       return;
